@@ -1,0 +1,15 @@
+Query: quel temps fera-t-il demain à Saint-Pierre
+Intent: weather
+Fulfillment: 
+fields {
+  key: "date"
+  value {
+    string_value: "2018-06-14T12:00:00+04:00"
+  }
+}
+fields {
+  key: "geo-city"
+  value {
+    string_value: "Saint-pierre"
+  }
+}
